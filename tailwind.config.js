@@ -7,11 +7,18 @@ module.exports = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
-      },
+         colors :{
+          'c-dark': '#032f40',
+          'c-grey': "#657c85",
+          "c-light-grey": "#f5f5f5",
+          "c-blue": "#1d6c83",
+          "c-green": "#85c8b6",
+          "c-light-green": "#d6efe5",
+          "c-dark-green": "#38a186",
+         },
+         animation: {
+          'spin-slow': 'spin 14s linear infinite',
+        },
     },
   },
   plugins: [],
